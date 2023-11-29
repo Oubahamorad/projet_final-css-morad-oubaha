@@ -1,65 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./public/css/app.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./public/css/app.css">
+  <title>Document</title>
 </head>
+
 <body>
-    <nav class="navbar  navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="./public/img/logo.png" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse  " id="navbarNavDropdown">
-            <ul class="navbar-nav  justify-content-evenly align-content-centar ">
-              
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Home
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Home page 1</a></li>
-                    </ul>
-                  </li>
-              
-            
-            
-              <li class="nav-item">
-                <a class="nav-link" href="#">Doctos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Pages
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">404 Eroor</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Blogs
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Blog Daetails</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
-              </li>
-              <button>Book Appointment</button>
+  <nav class="navbar  navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid w-75 d-lg-flex justify-content-evenly align-content-center  ">
+      <a class="navbar-brand" href="#"><img src="./public/img/logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse  justify-content-around  align-content-center  " id="navbarNavDropdown">
+        <ul class="navbar-nav   ">
+
+          <li class="nav-item dropdown  ">
+            <a class="nav-link dropdown-toggle text-primary border-bottom border-primary" href="#" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Home
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Home page 1</a></li>
             </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Doctos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Pages
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">404 Eroor</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Blogs
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Blog Daetails</a></li>
+            </ul>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+        <button class="p-3 mb-2 bg-primary text-white border-0 rounded   ">Book Appointment</button>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <!-- CAROUSEL -->
+    <section>
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active img1 ">
+            <div class="text_carousel">
+              <h1>We Provide <span class="text-primary">Medical</span> Services That You Can <span
+                  class="text-primary">Trust!</span> </h1>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, ut?</p>
+              <div>
+                <button class="p-3 mb-2  bg-primary text-white border-0 rounded   ">Get Appointment</button>
+                <button class="p-3 mb-2 w-25 bg-dark text-white border-0 rounded ">Abut Us</button>
+              </div>
+            </div>
           </div>
+
+
+          <div class="carousel-item img2">
+            <div class="text_carousel">
+              <h1>We Provide <span class="text-primary">Medical</span> Services That You Can <span
+                  class="text-primary">Trust!</span> </h1>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, ut?</p>
+              <div>
+                <button class="p-3 mb-2  bg-primary text-white border-0 rounded   ">Get Appointment</button>
+                <button class="p-3 mb-2 w-25 bg-dark text-white border-0 rounded ">Abut Us</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item img3">
+            <div class="text_carousel">
+              <h1>We Provide <span class="text-primary">Medical</span> Services That You Can <span
+                  class="text-primary">Trust!</span> </h1>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, ut?</p>
+              <div>
+                <button class="p-3 mb-2  bg-primary text-white border-0 rounded   ">Get Appointment</button>
+                <button class="p-3 mb-2 w-25 bg-dark text-white border-0 rounded ">Abut Us</button>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-primary rounded-5" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-primary rounded-5" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-      </nav>
+      </div>
+    </section>
+    <section>
+      <div class="section_css m-2 ">
+        <h1>We Are Always Ready To Help You & Your Family</h1>
+        <img src="./public/img/section-img.png" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum numquam consequatur incidunt.pejg;nsqkb</p>
+      </div>
+      <div class="pahrmace  ">
+        
+        <div class="iconmedicl">
+          <i class="fa-solid fa-truck-medical ico  " style="color: #adebff;"></i>
+          <h2>emergency Help</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class=" iconmedicl">
+          <p class="text-primary fs-2">................</p>
+        </div>
+        
+        <div class=" iconmedicl">
+          <i class="fa-solid fa-prescription-bottle-medical ico " style="color: #adebff;"></i>
+          <div class="text-center"><h2>emergency Help</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+        </div>
+        
+        <div class=" iconmedicl">
+          <p class="text-primary fs-2">................</p>
+        </div>
+
+        <div class=" iconmedicl">
+          <i class="fa-solid fa-stethoscope ico  " style="color: #adebff;"></i>
+          <h2>emergency Help</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+    </section>
 
 
 
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </main>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
+
 </html>

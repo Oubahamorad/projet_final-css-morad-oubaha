@@ -12070,6 +12070,13 @@ textarea.form-control-lg {
   height: 30vh;
 }
 
+.img5 {
+  background-image: url(../../../../public/img/blockqoute-bg.jpg);
+  background-size: cover;
+  width: 98.9vw;
+  height: 30vh;
+}
+
 @media (max-width: 426px) {
   .img1 img {
     width: 100%;

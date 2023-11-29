@@ -12033,6 +12033,21 @@ textarea.form-control-lg {
   text-align: center !important;
 }
 
+.ww {
+  width: 60%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  text-align: center;
+}
+
+.css {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .pahrmace {
   display: flex;
   justify-content: space-around;
@@ -12045,6 +12060,14 @@ textarea.form-control-lg {
   border: 1px solid gray;
   border-radius: 50px 50px;
   padding: 12px;
+  color: #00b2ed;
+}
+
+.img4 {
+  background-image: url(../../../../public/img/blockqoute-bg.jpg);
+  background-size: cover;
+  width: 98.9vw;
+  height: 30vh;
 }
 
 @media (max-width: 426px) {

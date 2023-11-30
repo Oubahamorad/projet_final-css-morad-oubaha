@@ -59,8 +59,9 @@
    align-items: end;
    text-align: center;
 
-   
-   
+ 
+    
+    
 }
 .css{ padding: 10px;
     display: flex;
@@ -73,9 +74,10 @@
             position: absolute;
             top: 40vh;
             left: 37vw;
-            width: 7vw;
+            width: 7vw; 
             border-bottom: dotted dodgerblue 2px;
         }
+       
 }
 .pahrmace {
     display: flex;
@@ -106,8 +108,11 @@
     background-image:url(../../../../public/img/blockqoute-bg.jpg) ;
     background-size: cover ;
     width: 98.9vw;
-    height: 30vh;
+    
 }
+<!-- page2-->
+
+
 @media (max-width:426px) {
     .text_carousel{height: 90vh;
         width: 300vw;
@@ -118,6 +123,8 @@
         text-align: center;
 
 }
+
+
 .section_css{padding: 150px;
 }
 .section_css h1{width: 100%;

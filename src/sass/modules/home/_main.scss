@@ -42,6 +42,16 @@
     align-items: center !important;
     flex-direction: column !important;
     gap: 3px;
+    position: relative !important;
+    &::before{
+        content: "gg" !important;
+        position: absolute !important;
+        top: 7vh !important;
+        left: 60vw !important;
+        width: 15vw !important;
+        border-bottom: dotted dodgerblue 2px !important;
+    }
+   
 }
 .section_css h1 {width: 45vw !important; 
     text-align: center !important;
@@ -55,6 +65,7 @@
    justify-content: center;
    align-items: end;
    text-align: center;
+
    
    
 }
@@ -63,7 +74,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+  
    
 }
 .pahrmace {
@@ -81,10 +92,22 @@
     color: #00b2ed;
 }
 .img4{
+    display: flex;
     background-image: url(../../../../public/img/blockqoute-bg.jpg);
     background-size: cover ;
     width: 98.9vw;
     height: 30vh;
+    background-attachment: fixed;
+    position: relative;
+        &::before{
+            content: "";
+            position: absolute;
+            z-index: 2;
+            opacity: 70%;
+            height: 100%;;
+            width: 15vw;
+            background-color: dodgerblue;
+        }
     
 }
 .img5{
@@ -92,15 +115,4 @@
     background-size: cover ;
     width: 98.9vw;
     height: 30vh;
-}
-
-
-@media (max-width : 426px) {
-
-    .img1 img{
-        width: 100%;
-        height: 100vh;
-    }
-
-    
 }

@@ -12042,10 +12042,20 @@ textarea.form-control-lg {
 }
 
 .css {
+  padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+.css::before {
+  content: "";
+  position: absolute;
+  top: 40vh;
+  left: 37vw;
+  width: 7vw;
+  border-bottom: dotted dodgerblue 2px;
 }
 
 .pahrmace {
@@ -12064,10 +12074,12 @@ textarea.form-control-lg {
 }
 
 .img4 {
+  display: flex;
   background-image: url(../../../../public/img/blockqoute-bg.jpg);
   background-size: cover;
   width: 98.9vw;
   height: 30vh;
+  background-attachment: fixed;
 }
 
 .img5 {
@@ -12078,8 +12090,85 @@ textarea.form-control-lg {
 }
 
 @media (max-width: 426px) {
-  .img1 img {
+  .text_carousel {
+    height: 90vh;
+    width: 300vw;
+    display: flex;
+    justify-items: start;
+    align-items: start;
+    padding: 90px;
+    text-align: center;
+  }
+  .section_css {
+    padding: 150px;
+  }
+  .section_css h1, .section_css .h1 {
     width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .pahrmace {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 10px;
+  }
+  .pahrmace p {
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .pahrmace h1, .pahrmace .h1 {
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
+  }
+  .img4 {
     height: 100vh;
+  }
+  .cll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .cll h1, .cll .h1 {
+    text-align: center;
+  }
+  .imagee {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .carrd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .ss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .ss h1, .ss .h1 {
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .ss p {
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .iii {
+    width: 85vw;
   }
 }
